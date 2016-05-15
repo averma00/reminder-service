@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Schedule>
+<DateRange>
+<DateFrom>3/4/2015</DateFrom>
+<DateTo>3/11/2015</DateTo>
+</DateRange>
+<Appointment>
+<AppointDate>5/13/2016 2:00:00 PM</AppointDate>
+<PatientID>1368</PatientID>
+<PatientName>John Smith</PatientName>
+<PatientPhone>(111) 222-333</PatientPhone>
+<PatientEmail>johnsmith@example.com</PatientEmail>
+<VisitType>F/U DM</VisitType>
+<Comments></Comments>
+<Booker></Booker>
+<ProviderID>3</ProviderID>
+<Duration>15</Duration>
+</Appointment>
+<Appointment>
+<AppointDate>5/16/2016 2:00:00 PM</AppointDate>
+<PatientID>1368</PatientID>
+<PatientName>Jane Smith</PatientName>
+<PatientPhone>(111) 222-333</PatientPhone>
+<PatientEmail>janesmith@example.com</PatientEmail>
+<VisitType>F/U DM</VisitType>
+<Comments></Comments>
+<Booker></Booker>
+<ProviderID>3</ProviderID>
+<Duration>15</Duration>
+</Appointment>
+<Appointment>
+<AppointDate>5/13/2016 2:00:00 PM</AppointDate>
+<PatientID>1368</PatientID>
+<PatientName>Peter Sick</PatientName>
+<PatientPhone>(111) 222-333</PatientPhone>
+<PatientEmail>psick@example.com</PatientEmail>
+<VisitType>New Patient</VisitType>
+<Comments></Comments>
+<Booker></Booker>
+<ProviderID>3</ProviderID>
+<Duration>30</Duration>
+</Appointment>
+</Schedule>
+

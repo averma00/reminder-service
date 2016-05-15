@@ -1,0 +1,9 @@
+#! /bin/sh
+
+cd $HOME/lj
+#php main.php --mode=4 > /tmp/log.txt
+php main.php > /tmp/log.txt
+php cleanup.php  >> /tmp/log.txt
+php resultmailer.php "/tmp/log.txt" 
+
+
