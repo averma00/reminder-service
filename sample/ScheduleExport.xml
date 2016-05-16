@@ -6,10 +6,10 @@
 <DateTo>3/11/2015</DateTo>
 </DateRange>
 <Appointment>
-<AppointDate>5/13/2016 2:00:00 PM</AppointDate>
+<AppointDate>5/18/2016 2:00:00 PM</AppointDate>
 <PatientID>1368</PatientID>
 <PatientName>John Smith</PatientName>
-<PatientPhone>(111) 222-333</PatientPhone>
+<PatientPhone>(111) 222-3333</PatientPhone>
 <PatientEmail>johnsmith@example.com</PatientEmail>
 <VisitType>F/U DM</VisitType>
 <Comments></Comments>
@@ -18,11 +18,11 @@
 <Duration>15</Duration>
 </Appointment>
 <Appointment>
-<AppointDate>5/16/2016 2:00:00 PM</AppointDate>
+<AppointDate>5/20/2016 2:00:00 PM</AppointDate>
 <PatientID>1368</PatientID>
 <PatientName>Jane Smith</PatientName>
-<PatientPhone>(111) 222-333</PatientPhone>
-<PatientEmail>janesmith@example.com</PatientEmail>
+<PatientPhone>(111) 222-4444</PatientPhone>
+<PatientEmail>janesmith@gmail.com</PatientEmail>
 <VisitType>F/U DM</VisitType>
 <Comments></Comments>
 <Booker></Booker>
@@ -30,10 +30,10 @@
 <Duration>15</Duration>
 </Appointment>
 <Appointment>
-<AppointDate>5/13/2016 2:00:00 PM</AppointDate>
+<AppointDate>6/13/2016 2:00:00 PM</AppointDate>
 <PatientID>1368</PatientID>
 <PatientName>Peter Sick</PatientName>
-<PatientPhone>(111) 222-333</PatientPhone>
+<PatientPhone>(111) 222-5555</PatientPhone>
 <PatientEmail>psick@example.com</PatientEmail>
 <VisitType>New Patient</VisitType>
 <Comments></Comments>

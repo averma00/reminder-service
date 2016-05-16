@@ -72,18 +72,18 @@ foreach($sx->Appointment as $appt)  {
     $gReport->insertRecord($pobj);
     
     // for this patient, do one of the reminders or skip
-	if ($eReminder1->doReminder($pobj))  {
-	} 
-	else if ($eReminder2->doReminder($pobj))  {
-	}
-	else if ($tReminder->doReminder($pobj)) {
-	}
-	else
-	{
-		// Do not override any oher error status if it has been set already by other logic
-		if (!$pobj->isStatusSet() )
-			$pobj->setStatusDet("Skipped", "Future Date");
-		$numSkipped++;
+    if ($eReminder1->doReminder($pobj))  {
+    } 
+    else if ($eReminder2->doReminder($pobj))  {
+    }
+    else if ($tReminder->doReminder($pobj)) {
+    }
+    else
+    {
+        // Do not override any oher error status if it has been set already by other logic
+        if (!$pobj->isStatusSet() )
+            $pobj->setStatusDet("Skipped", "Future Date");
+        $numSkipped++;
 	}
 }
 
